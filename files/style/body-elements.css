@@ -1,38 +1,32 @@
-.pos-li {
-    margin: 0px 8px 0px 8px;
-    text-align: center;
+.b-img-pos {
+    width: 100%;
 }
 
-.posico {
-    margin-left: 10px;
+.h-container {
+    height: 900px;
 }
 
-.cart-pos {
-    margin-left: 5px;
+.carousel-inner {
+    height: auto;
 }
 
-.nav-pos {
-    text-align: center;
+.elements-b {
+    margin-top: -50px;
     position: relative;
-    margin: auto;
 }
 
-.bg-nav {
-    background-color: #333;
-    color: white;
-}
-
-.nav-home {
-    text-align: center;
-}
-
-* {
-    font-family: 'Titillium ';
+.text-size {
+    font-size: 14px;
 }
 
 .container {
     max-width: 960px;
 }
+
+
+/*
+   * Custom translucent site header
+   */
 
 .site-header {
     background-color: rgba(0, 0, 0, .85);
@@ -49,11 +43,6 @@
     color: #fff;
     text-decoration: none;
 }
-
-
-/*
-   * Custom translucent site header
-   */
 
 
 /*
@@ -110,4 +99,39 @@
 
 .overflow-hidden {
     overflow: hidden;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
 }
